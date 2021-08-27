@@ -1438,7 +1438,7 @@ body.modal-open {
   background-color: #2f303a;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1456,9 +1456,17 @@ body.modal-open {
   color: #ffffff;
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .footer__logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .footer__link {
@@ -1485,8 +1493,34 @@ body.modal-open {
   text-decoration: none;
 }
 
-.invite {
-  margin-left: 70px;
+@media (max-width: 1199px) {
+  .footer__box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__box {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .invite {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .invite {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .invite {
+    margin-left: 70px;
+  }
 }
 
 .invite__title {
@@ -1501,11 +1535,19 @@ body.modal-open {
   margin-bottom: 20px;
 }
 
-.mailing {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
+@media (min-width: 768px) and (max-width: 1199px) {
+  .mailing {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mailing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+  }
 }
 
 .mailing__label {
@@ -1514,9 +1556,7 @@ body.modal-open {
 
 .mailing__input {
   background-color: transparent;
-  width: 358px;
   height: 50px;
-  margin-right: 12px;
   border-radius: 4px;
   padding-left: 16px;
   padding-top: 15px;
@@ -1527,6 +1567,27 @@ body.modal-open {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
+}
+
+@media (max-width: 767px) {
+  .mailing__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .mailing__input {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mailing__input {
+    width: 358px;
+    margin-right: 12px;
+  }
 }
 
 .mailing__button {
@@ -1540,6 +1601,23 @@ body.modal-open {
 
 .mailing__icon {
   margin-left: 10px;
+}
+
+@media (max-width: 1199px) {
+  .mailing__form {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .mailing-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .filter {
