@@ -1,3 +1,9 @@
+.whatwedo-section {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .whatwedo {
   display: flex;
   flex-wrap: wrap;

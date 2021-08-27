@@ -1,5 +1,8 @@
 .advantages-section {
   padding-bottom: 0;
+  @media (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
 }
 
 .advantages {

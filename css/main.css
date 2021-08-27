@@ -1040,6 +1040,12 @@ body.modal-open {
   padding-bottom: 0;
 }
 
+@media (max-width: 1199px) {
+  .advantages-section {
+    margin-bottom: 60px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .advantages {
     display: -webkit-box;
@@ -1130,6 +1136,12 @@ body.modal-open {
 @media (min-width: 1200px) {
   .advantages__box {
     width: 270px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .whatwedo-section {
+    display: none;
   }
 }
 
