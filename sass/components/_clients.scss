@@ -1,5 +1,10 @@
 .clients {
-  @media (min-width: 768px) {
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 1199px) {
+    margin: -15px;
+  }
+  @media (min-width: 1200px) {
     display: flex;
     justify-content: space-between;
   }
@@ -13,7 +18,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
+  @media (min-width: 480px) and (max-width: 767px) {
+    width: 210px;
+    margin: 15px;
+  }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 226px;
+    margin: 15px;
+  }
+  @media (min-width: 1200px) {
+    width: 170px;
+  }
+
   height: 92px;
   color: $icon-color;
   border: solid 1px $icon-color;

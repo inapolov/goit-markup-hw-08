@@ -1356,7 +1356,21 @@ body.modal-open {
   background-color: #2196f3;
 }
 
-@media (min-width: 768px) {
+.clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 1199px) {
+  .clients {
+    margin: -15px;
+  }
+}
+
+@media (min-width: 1200px) {
   .clients {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1381,7 +1395,6 @@ body.modal-open {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 170px;
   height: 92px;
   color: #afb1b8;
   border: solid 1px #afb1b8;
@@ -1392,6 +1405,26 @@ body.modal-open {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .clients__item .clients__link {
+    width: 210px;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .clients__item .clients__link {
+    width: 226px;
+    margin: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .clients__item .clients__link {
+    width: 170px;
+  }
 }
 
 .clients__item .clients__link:hover, .clients__item .clients__link:focus {
