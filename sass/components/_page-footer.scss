@@ -1,0 +1,93 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+
+&__container {
+  display: flex;
+  align-items: baseline;
+}
+&__logo {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: $primery-white-color;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+&__link {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 9px;
+  color: $primery-white-color;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+&__contacts {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 9px;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+}
+
+.invite {
+  margin-left: 70px;
+
+  &__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primery-white-color;
+  margin-bottom: 20px;
+}
+}
+
+
+.mailing {
+  display: flex;
+  margin-left: auto;
+
+  &__label {
+  display: block;
+}
+&__input {
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+&__button {
+  display: inline-flex;
+  align-items: center;
+}
+&__icon {
+  margin-left: 10px;
+}
+}
