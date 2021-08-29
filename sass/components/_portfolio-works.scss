@@ -16,8 +16,8 @@
   }
   &__link {
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
   }
   &__text {
     color: $primery-text-color;
@@ -75,11 +75,12 @@
   &__img {
     display: block;
     margin: 0;
+    width: 100%;
   }
   &__border {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    // display: flex;
+    // flex-direction: column;
+    // flex-grow: 1;
 
     padding-top: 20px;
     padding-right: 24px;
@@ -92,6 +93,14 @@
   &__thumb {
     position: relative;
     overflow: hidden;
+
+    width: 450px;
+    @media (min-width: 768px) {
+      width: 354px;
+    }
+    @media (min-width: 1200px) {
+      width: 370px;
+    }
   }
 
   &__overlay {
