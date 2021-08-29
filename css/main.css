@@ -1827,6 +1827,13 @@ body.modal-open {
 }
 
 .card__border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -1872,6 +1879,12 @@ body.modal-open {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card__big {
+    padding-bottom: 56px;
+  }
 }
 
 .backdrop {
