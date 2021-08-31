@@ -156,7 +156,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 8100vh;
+  height: 100vh;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 48px;
@@ -184,9 +184,9 @@
 }
 
 .mobile-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
 
   padding: 0;
   margin: 0;
@@ -280,7 +280,8 @@
   right: 15px;
 }
 
-// .mobile-contacts {
-//   display: flex;
-//   flex-direction: column;
-// }
+.mobile-contacts {
+  position: absolute;
+  left: 40px;
+  bottom: 48px;
+}

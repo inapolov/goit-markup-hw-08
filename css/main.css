@@ -861,7 +861,7 @@ body.modal-open {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 8100vh;
+  height: 100vh;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 48px;
@@ -895,16 +895,6 @@ body.modal-open {
 }
 
 .mobile-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -984,6 +974,12 @@ body.modal-open {
   position: absolute;
   top: 10px;
   right: 15px;
+}
+
+.mobile-contacts {
+  position: absolute;
+  left: 40px;
+  bottom: 48px;
 }
 
 .hero {
